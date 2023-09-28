@@ -1,0 +1,199 @@
+# Code for fungal diseas affect leaf litter decomposition
+##  packages  ####
+library(readxl)
+library(tidyverse)
+library(eoffice)
+library(lme4)
+library(lmerTest)
+library(sciplot)
+library(ggpubr)
+library(ggsci)
+library(viridis)
+library(vegan)
+library(metafor)
+library(MuMIn)
+####  read data  ####
+
+data_sc <- read.csv('Supplementary Data1.csv') %>% filter(R!='HB')
+dataes_sc <- escalc(measure = "ROM",
+                 data = data_sc,
+                 n1i = N_e,
+                 n2i = N_c,
+                 m1i = mean_e,
+                 m2i = mean_c,
+                 sd1i = sd_e,
+                 sd2i = sd_c)
+
+data_hb <- read.csv("Supplementary Data1.csv") %>% filter(R=='HB')
+dataes_hb <- escalc(measure = "ROM",
+                 data = data_hb,
+                 n1i = N_e,
+                 n2i = N_c,
+                 m1i = mean_e,
+                 m2i = mean_c,
+                 sd1i = sd_e,
+                 sd2i = sd_c)
+litter_traits <- read.csv("Supplementary Data2.csv")
+
+####  Experiment # 1 
+dataes_sc$Disease_type <- as.factor(dataes_sc$Disease_type)
+
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ 1, random=~1|(Family/Species))
+summary(random1)
+
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ Function-1, random=~1|(Family/Species))
+summary(random1)
+
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LON, random=~1|(Family/Species))
+summary(random1) 
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LAT, random=~1|(Family/Species))
+summary(random1) 
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ ELE, random=~1|(Family/Species))
+summary(random1) 
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAT, random=~1|(Family/Species))
+summary(random1)
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAP, random=~1|(Family/Species))
+summary(random1)
+
+####  Experiment # 2 
+dataes_hb$Disease_type <- as.factor(dataes_hb$Disease_type)
+
+random1<-rma.mv(yi,vi, data=dataes_hb, method="REML", mods= ~ 1, random=~1|(Family/Species))
+summary(random1)  
+
+## litter traits ~ fungal disease
+
+litter_traits$Leaf_type <- as.factor(litter_traits$Leaf_type)
+model <- lmer(Lignin~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(Cellulose~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(Hemicellulose~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(Tannin~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(TP~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(C~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(N~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(C_N~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(Lignin_N~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(Tannin_N~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(PCoA1~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+## litter decomposition rate ~ litter traits
+
+model <- lmer(k~C+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~N+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~C_N+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~Lignin+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~Cellulose+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~Hemicellulose+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~Tannin+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~TP+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(SR~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())
+summary(model)
+anova(model)
+
+model <- lmer(SR2~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())
+summary(model)
+anova(model)
+
+model <- lmer(Relative_Abun0~Leaf_type+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~SR+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~SR2+(1|Family/Species),litter_traits)
+summary(model)
+anova(model)
+
+model <- lmer(k~Relative_Abun0+(1|Family/Species),litter_traits %>% na.omit())
+summary(model)
+anova(model)
+
+model <- lmer(k~PCoA1+(1|Family/Species),litter_traits %>% na.omit())
+summary(model)
+anova(model)
+
+####  Meta-analysis 
+
+dataes <- read.csv("Supplementary Data3.csv")
+random1<-rma.mv(yi,vi, data=dataes, method="REML", mods= ~ 1, random=~1|No.paper/No.ID)
+summary(random1)  
+
+random2<-rma.mv(yi,vi, data=dataes, method="REML", mods= ~ Plant_type-1, random=~1|No.paper/No.ID)
+summary(random2) 
+
+random2<-rma.mv(yi,vi, data=dataes, method="REML", mods= ~ Index-1, random=(~1|No.paper/No.ID+Plant.species))
+summary(random2) 
+
+####  Experiment # 3
+
+data <- read.csv("Supplementary Data4.csv") %>% 
+  mutate(Decomposition_weight=Begin_weight-End_weight,Decomposition_ratio=Decomposition_weight/Begin_weight,
+         Decomposition_rate=Decomposition_ratio/Decomposition_time,
+         k=-log(End_weight/Begin_weight)/Decomposition_time) %>% na.omit()
+
+data$Fungal_Pathogen <- as.factor(data$Fungal_Pathogen)
+model <- lmer(k~Fungal_Pathogen+(1|Family/Species),data)
+summary(model)
+anova(model)
+
+
+
+
