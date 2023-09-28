@@ -38,135 +38,143 @@ litter_traits <- read.csv("Supplementary Data2.csv")
 ####  Experiment # 1 
 dataes_sc$Disease_type <- as.factor(dataes_sc$Disease_type)
 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ 1, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ 1, random=~1|(Family/Species)) ## Overall effect
 summary(random1)
 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ Function-1, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ Function-1, random=~1|(Family/Species))  ## Effect across different function group
 summary(random1)
 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LON, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LON, random=~1|(Family/Species))  ## ~ longitude
 summary(random1) 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LAT, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ LAT, random=~1|(Family/Species))  ## ~ latitude
 summary(random1) 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ ELE, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ ELE, random=~1|(Family/Species))  ## ~ elevation
 summary(random1) 
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAT, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAT, random=~1|(Family/Species))  ## ~ mean annual temperature
 summary(random1)
-random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAP, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_sc, method="REML", mods= ~ MAP, random=~1|(Family/Species))  ## ~ mean annual precipitation
 summary(random1)
 
 ####  Experiment # 2 
 dataes_hb$Disease_type <- as.factor(dataes_hb$Disease_type)
 
-random1<-rma.mv(yi,vi, data=dataes_hb, method="REML", mods= ~ 1, random=~1|(Family/Species))
+random1<-rma.mv(yi,vi, data=dataes_hb, method="REML", mods= ~ 1, random=~1|(Family/Species))  ## Overall effect
 summary(random1)  
 
 ## litter traits ~ fungal disease
 
 litter_traits$Leaf_type <- as.factor(litter_traits$Leaf_type)
-model <- lmer(Lignin~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Lignin~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf lignin
 summary(model)
 anova(model)
 
-model <- lmer(Cellulose~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Cellulose~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf cellulose
 summary(model)
 anova(model)
 
-model <- lmer(Hemicellulose~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Hemicellulose~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf Hemicellulose
 summary(model)
 anova(model)
 
-model <- lmer(Tannin~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Tannin~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf Tannin
 summary(model)
 anova(model)
 
-model <- lmer(TP~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(TP~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf total phenolics
 summary(model)
 anova(model)
 
-model <- lmer(C~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(C~Leaf_type+(1|Family/Species),litter_traits)    ##  Effect of fungal disease on leaf carbon
 summary(model)
 anova(model)
 
-model <- lmer(N~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(N~Leaf_type+(1|Family/Species),litter_traits)   ##  Effect of fungal disease on leaf nitrogen
 summary(model)
 anova(model)
 
-model <- lmer(C_N~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(C_N~Leaf_type+(1|Family/Species),litter_traits)   ##  Effect of fungal disease on leaf C/N
 summary(model)
 anova(model)
 
-model <- lmer(Lignin_N~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Lignin_N~Leaf_type+(1|Family/Species),litter_traits)   ##  Effect of fungal disease on leaf lignin/N
 summary(model)
 anova(model)
 
-model <- lmer(Tannin_N~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(Tannin_N~Leaf_type+(1|Family/Species),litter_traits)   ##  Effect of fungal disease on leaf tannin/N
 summary(model)
 anova(model)
 
-model <- lmer(PCoA1~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(SR~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())  ## Effect of fungal disease on number of fungal community OTUs 
+summary(model)
+anova(model)
+
+model <- lmer(SR2~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())  ## Effect of fungal disease on number of saprophytic fungi OTUs
+summary(model)
+anova(model)
+
+model <- lmer(Relative_Abun0~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())  ## Effect of fungal disease on relative abundance of saprophytic fungi OTUs 
+summary(model)
+anova(model)
+
+model <- lmer(PCoA1~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())   ##  Effect of fungal disease on leaf PCoA1 of endophytic fungal community
 summary(model)
 anova(model)
 
 ## litter decomposition rate ~ litter traits
 
-model <- lmer(k~C+(1|Family/Species),litter_traits)
+model <- lmer(k~Lignin+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Lignin 
 summary(model)
 anova(model)
 
-model <- lmer(k~N+(1|Family/Species),litter_traits)
+model <- lmer(k~Cellulose+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Cellulose 
 summary(model)
 anova(model)
 
-model <- lmer(k~C_N+(1|Family/Species),litter_traits)
+model <- lmer(k~Hemicellulose+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Hemicellulose 
 summary(model)
 anova(model)
 
-model <- lmer(k~Lignin+(1|Family/Species),litter_traits)
+model <- lmer(k~Tannin+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Tannin 
 summary(model)
 anova(model)
 
-model <- lmer(k~Cellulose+(1|Family/Species),litter_traits)
+model <- lmer(k~TP+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and total phenolics 
 summary(model)
 anova(model)
 
-model <- lmer(k~Hemicellulose+(1|Family/Species),litter_traits)
+model <- lmer(k~C+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and carbon 
 summary(model)
 anova(model)
 
-model <- lmer(k~Tannin+(1|Family/Species),litter_traits)
+model <- lmer(k~N+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and nitrogen 
 summary(model)
 anova(model)
 
-model <- lmer(k~TP+(1|Family/Species),litter_traits)
+model <- lmer(k~C_N+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and C/N 
 summary(model)
 anova(model)
 
-model <- lmer(SR~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())
+model <- lmer(k~Lignin_N+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Lignin_N 
 summary(model)
 anova(model)
 
-model <- lmer(SR2~Leaf_type+(1|Family/Species),litter_traits %>% na.omit())
+model <- lmer(k~Tannin_N+(1|Family/Species),litter_traits)  ## Relationship between leaf litter decompoisition rate and Tannin_N
 summary(model)
 anova(model)
 
-model <- lmer(Relative_Abun0~Leaf_type+(1|Family/Species),litter_traits)
+model <- lmer(k~SR+(1|Family/Species),litter_traits %>% na.omit())  ## Relationship between leaf litter decompoisition rate and number of fungal community OTUs 
 summary(model)
 anova(model)
 
-model <- lmer(k~SR+(1|Family/Species),litter_traits)
+model <- lmer(k~SR2+(1|Family/Species),litter_traits %>% na.omit())  ## Relationship between leaf litter decompoisition rate and number of saprophytic fungi OTUs 
 summary(model)
 anova(model)
 
-model <- lmer(k~SR2+(1|Family/Species),litter_traits)
+model <- lmer(k~Relative_Abun0+(1|Family/Species),litter_traits %>% na.omit())  ## Relationship between leaf litter decompoisition rate and relative abundance of saprophytic fungi OTUs  
 summary(model)
 anova(model)
 
-model <- lmer(k~Relative_Abun0+(1|Family/Species),litter_traits %>% na.omit())
-summary(model)
-anova(model)
-
-model <- lmer(k~PCoA1+(1|Family/Species),litter_traits %>% na.omit())
+model <- lmer(k~PCoA1+(1|Family/Species),litter_traits %>% na.omit())  ## Relationship between leaf litter decompoisition rate and PCoA1 of endophytic fungal community 
 summary(model)
 anova(model)
 
