@@ -1,0 +1,242 @@
+No.ID,No.paper,Title,Year,Plant.species,Plant_type,Site,Country,Infection_Position,Index,Pathogens,Disease.type,Pathogen.taxon,Life_history,yi,vi
+1,1,"Role of Phenolic Metabolism in the Defense of the Olive-tree against
+Leaf-spot Disease Caused by Spilocaea oleagina",2013,Olea europaea,Woody,Huan County_1,Morocco,Leaf,Phenolics,Spilocaea oleagina,Leaf spot,Fungus,Necrotroph,0.250520134,0.003413634
+2,1,"Role of Phenolic Metabolism in the Defense of the Olive-tree against
+Leaf-spot Disease Caused by Spilocaea oleagina",2013,Olea europaea,Woody,Huan County_1,Morocco,Leaf,Lignin,Spilocaea oleagina,Leaf spot,Fungus,Necrotroph,0.492003454,0.000359488
+3,1,"Role of Phenolic Metabolism in the Defense of the Olive-tree against
+Leaf-spot Disease Caused by Spilocaea oleagina",2013,Olea europaea,Woody,Huan County_1,Morocco,Leaf,Phenolics,Spilocaea oleagina,Leaf spot,Fungus,Necrotroph,0.481991924,0.000387602
+4,2,"The modifications of cell wall composition and water status of cucumber
+leaves induced by powdery mildew and manganese nutrition",2019,Cucumis sativus,Forb,Isfahan province,Iran,Leaf,Lignin,Podosphaera fuliginea,Powdery mildew,Fungus,Biotroph,0.232943856,0.00235242
+5,2,"The modifications of cell wall composition and water status of cucumber
+leaves induced by powdery mildew and manganese nutrition",2019,Cucumis sativus,Forb,Isfahan province,Iran,Leaf,Celluloses,Podosphaera fuliginea,Powdery mildew,Fungus,Biotroph,0.318612953,0.002628269
+6,2,"The modifications of cell wall composition and water status of cucumber
+leaves induced by powdery mildew and manganese nutrition",2019,Cucumis sativus,Forb,Isfahan province,Iran,Leaf,Celluloses,Podosphaera fuliginea,Powdery mildew,Fungus,Biotroph,-0.662078019,0.002607416
+7,3,"2,3?Butanediol induces brown blotch resistance in creeping bentgrass by strengthening cell wall structure and promoting lignin synthesis 
+of precursor phenolic acid",2023,Agrostis stolonifera,Grass,Lanzhou,China,Leaf,Lignin,Rhizoctonia solani,Brown blotch,Fungus,Necrotroph,0.04959986,5.45E-05
+8,3,"2,3?Butanediol induces brown blotch resistance in creeping bentgrass by strengthening cell wall structure and promoting lignin synthesis 
+of precursor phenolic acid",2023,Agrostis stolonifera,Grass,Lanzhou,China,Leaf,Celluloses,Rhizoctonia solani,Brown blotch,Fungus,Necrotroph,0.039658027,2.48E-05
+9,3,"2,3?Butanediol induces brown blotch resistance in creeping bentgrass by strengthening cell wall structure and promoting lignin synthesis 
+of precursor phenolic acid",2023,Agrostis stolonifera,Grass,Lanzhou,China,Leaf,Celluloses,Rhizoctonia solani,Brown blotch,Fungus,Necrotroph,0.023520104,0.000429963
+10,4,"Impact of ectomycorrhizal colonization and rust infection on the
+secondary metabolism of poplar (Populus trichocarpa ¡Á deltoides)",2012,Populus trichocarpa,Woody,Rostock,Germany,Leaf,Phenolics,Melampsora larici-populina,Rust,Fungus,Biotroph,-0.214743349,0.023194376
+11,4,"Impact of ectomycorrhizal colonization and rust infection on the
+secondary metabolism of poplar (Populus trichocarpa ¡Á deltoides)",2012,Populus trichocarpa,Woody,Rostock,Germany,Leaf,Tannin,Melampsora larici-populina,Rust,Fungus,Biotroph,0.168898536,0.036496421
+12,4,"Impact of ectomycorrhizal colonization and rust infection on the
+secondary metabolism of poplar (Populus trichocarpa ¡Á deltoides)",2012,Populus trichocarpa,Woody,Rostock,Germany,Leaf,Lignin,Melampsora larici-populina,Rust,Fungus,Biotroph,-0.129211731,0.028059514
+13,5,"Non-pathogenic Powdery Mildews Induce Resistance in Pea (Pisum sativum)
+against Erysiphe pisi",2003,Pisum sativum,Forb,Banaras,India,Leaf,Phenolics,Oidium sp.,Powdery mildew,Fungus,Biotroph,0.840783179,0.006666667
+14,5,"Non-pathogenic Powdery Mildews Induce Resistance in Pea (Pisum sativum)
+against Erysiphe pisi",2003,Pisum sativum,Forb,Banaras,India,Leaf,Phenolics,Phyllactinia corylea,Powdery mildew,Fungus,Biotroph,0.53329848,0.006666667
+15,5,"Non-pathogenic Powdery Mildews Induce Resistance in Pea (Pisum sativum)
+against Erysiphe pisi",2003,Pisum sativum,Forb,Banaras,India,Leaf,Phenolics,Phyllactinia delbergiae,Powdery mildew,Fungus,Biotroph,0.820980552,0.006666667
+16,6,"Effects of fertilization on red pine defense chemistry
+and resistance to Sphaeropsis sapinea",2005,Pinus resinosa,Woody,Wooster,America,Leaf,Lignin,Sphaeropsis sapinea,Shoot blight,Fungus,Necrotroph,-0.009264687,0.004
+17,6,"Effects of fertilization on red pine defense chemistry
+and resistance to Sphaeropsis sapinea",2005,Pinus resinosa,Woody,Wooster,America,Leaf,Phenolics,Sphaeropsis sapinea,Shoot blight,Fungus,Necrotroph,1.098612289,0.004
+18,7,"Microstructural and metabolic variations induced by Bipolaris oryzae
+inciting brown spot disease of rice",2023,Oryza sativa,Grass,Punjab,India,Leaf,Flavonoids,Bipolaris oryzae,Brown spot,Fungus,Necrotroph,0.032883592,0.008615442
+19,7,"Microstructural and metabolic variations induced by Bipolaris oryzae
+inciting brown spot disease of rice",2023,Oryza sativa,Grass,Punjab,India,Leaf,Phenolics,Bipolaris oryzae,Brown spot,Fungus,Necrotroph,0.216440253,0.009736109
+20,7,"Microstructural and metabolic variations induced by Bipolaris oryzae
+inciting brown spot disease of rice",2023,Oryza sativa,Grass,Punjab,India,Leaf,Lignin,Bipolaris oryzae,Brown spot,Fungus,Necrotroph,-0.266851931,0.008634764
+21,8,"Ectomycorrhizal Fungi Modulate Biochemical Response against
+Powdery Mildew Disease in Quercus robur L.",2022,Quercus robur,Woody,Novi Sad,Serbia,Leaf,Phenolics,Erysiphe alphitoides,Powdery mildew,Fungus,Biotroph,-0.080876123,0.001252791
+22,8,"Ectomycorrhizal Fungi Modulate Biochemical Response against
+Powdery Mildew Disease in Quercus robur L.",2022,Quercus robur,Woody,Novi Sad,Serbia,Leaf,Flavonoids,Erysiphe alphitoides,Powdery mildew,Fungus,Biotroph,-0.037682986,0.000771784
+23,8,"Ectomycorrhizal Fungi Modulate Biochemical Response against
+Powdery Mildew Disease in Quercus robur L.",2022,Quercus robur,Woody,Novi Sad,Serbia,Leaf,Lignin,Erysiphe alphitoides,Powdery mildew,Fungus,Biotroph,-0.278571988,0.001104425
+24,9,Diplodia sapinea Leaf spot Fungus Necrotroph,2022,Pinus sylvestris,Woody,Breisgau,Germany,Leaf,Lignin,Diplodia sapinea,Leaf spot,Fungus,Necrotroph,0.073494816,0.000975781
+25,9,Diplodia sapinea Leaf spot Fungus Necrotroph,2022,Pinus sylvestris,Woody,Breisgau,Germany,Leaf,Celluloses,Diplodia sapinea,Leaf spot,Fungus,Necrotroph,-0.050395027,0.00028803
+26,10,"Flagging defensive roles of carbohydrate-active enzymes (CAZymes) and
+carbohydrates during Puccinia triticina-wheat interactions",2023,Triticum aestivum,Grass,Bloemfontein,South Africa,Leaf,Phenolics,Puccinia triticina,Rust,Fungus,Biotroph,0.536264649,0.00016471
+27,10,"Flagging defensive roles of carbohydrate-active enzymes (CAZymes) and
+carbohydrates during Puccinia triticina-wheat interactions",2023,Triticum aestivum,Grass,Bloemfontein,South Africa,Leaf,Celluloses,Puccinia triticina,Rust,Fungus,Biotroph,0.235337644,0.000163864
+28,10,"Flagging defensive roles of carbohydrate-active enzymes (CAZymes) and
+carbohydrates during Puccinia triticina-wheat interactions",2023,Triticum aestivum,Grass,Bloemfontein,South Africa,Leaf,Celluloses,Puccinia triticina,Rust,Fungus,Biotroph,0.276370096,0.000104729
+29,10,"Flagging defensive roles of carbohydrate-active enzymes (CAZymes) and
+carbohydrates during Puccinia triticina-wheat interactions",2023,Triticum aestivum,Grass,Bloemfontein,South Africa,Leaf,Lignin,Puccinia triticina,Rust,Fungus,Biotroph,0.263186319,8.62E-05
+30,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Phenolics,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,0.852412059,0.003266473
+31,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Phenolics,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.450634076,0.007522316
+32,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Phenolics,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,0.598927208,0.00517746
+33,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Phenolics,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.72762836,0.001594818
+34,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Stilbenes,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,0.110665568,0.083932052
+35,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Stilbenes,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.655202249,0.025816867
+36,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Stilbenes,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,-0.470003629,0.008408333
+37,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Stilbenes,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,-0.192371893,0.008073347
+38,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Flavonoids,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,0.088337461,0.020284064
+39,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Flavonoids,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.469207134,0.018895529
+40,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Flavonoids,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,-0.271258997,0.003820092
+41,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Flavonoids,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.163058741,0.009916945
+42,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Lignin,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,1.104057208,0.010081576
+43,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Picea jezoensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Lignin,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,0.016246616,0.006567819
+44,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Lignin,Endoconidiophora fujiensis,Leaf spot,Fungus,Necrotroph,0.865980722,0.007094121
+45,11,"Performance of two Ips bark
+beetles and their associated
+pathogenic fungi on hosts
+reflects a species-specific
+association in the beetlefungus complex",2022,Larix olgensis,Woody,"Jingouling
+Forest Farm.Jilin",China,Leaf,Lignin,Endoconidiophora polonica,Leaf spot,Fungus,Necrotroph,1.069773632,0.002438152
+46,12,"Biocontrol potential of Trichoderma harzianum against Botrytis cinerea in
+tomato plants",2022,Solanum lycopersicum,Forb,Luoyang,China,Leaf,Phenolics,"Botrytis
+cinerea","Gray
+mold/Blight",Fungus,Necrotroph,0.387381433,0.00252407
+47,12,"Biocontrol potential of Trichoderma harzianum against Botrytis cinerea in
+tomato plants",2022,Solanum lycopersicum,Forb,Luoyang,China,Leaf,Lignin,"Botrytis
+cinerea","Gray
+mold/Blight",Fungus,Necrotroph,-1.00144854,0.006336523
+54,14,"Potentiation of soybean resistance against Phakopsora
+pachyrhizi infection using phosphite combined with free amino
+acids",2022,Glycine max,Forb,Minas Gerais,Brazil,Leaf,Phenolics,Phakopsora pachyrhizi,Rust,Fungus,Biotroph,-0.003595833,0.000268708
+55,14,"Potentiation of soybean resistance against Phakopsora
+pachyrhizi infection using phosphite combined with free amino
+acids",2022,Glycine max,Forb,Minas Gerais,Brazil,Leaf,Lignin,Phakopsora pachyrhizi,Rust,Fungus,Biotroph,0.428437965,0.008199761
+56,15,"Defense mechanisms involved in the resistance of maize
+cultivars to Bipolaris maydis",2022,Zea mays,Grass,Santa Catarina,Brazil,Leaf,Flavonoids,Bipolaris maydis,Leaf Blight,Fungus,Necrotroph,0.345563208,0.004339799
+59,17,"Maize resistance to northern corn leaf blight is potentiated by
+nickel",2021,Zea mays,Grass,Minas Gerais,Brazil,Leaf,Phenolics,Exserohilum turcicum,Northern corn leaf blight,Fungus,Necrotroph,0.929388314,0.018430926
+60,17,"Maize resistance to northern corn leaf blight is potentiated by
+nickel",2021,Zea mays,Grass,Minas Gerais,Brazil,Leaf,Lignin,Exserohilum turcicum,Northern corn leaf blight,Fungus,Necrotroph,0.395095251,0.010378819
+61,18,"Soybean resistance to Phakopsora pachyrhizi infection is barely potentiated 
+by boron",2021,Glycine max,Forb,Minas Gerais,Brazil,Leaf,Phenolics,Phakopsora pachyrhizi,Asian soybean rust,Fungus,Biotroph,0.092293772,0.002865833
+62,18,"Soybean resistance to Phakopsora pachyrhizi infection is barely potentiated 
+by boron",2021,Glycine max,Forb,Minas Gerais,Brazil,Leaf,Lignin,Phakopsora pachyrhizi,Asian soybean rust,Fungus,Biotroph,0.668299909,0.00125849
+65,20,"Systemic reprogramming of phytohormone profiles and
+metabolic traits by virulent Diplodia infection in its pine (Pinus
+sylvestris L.) host",2021,"Pinus 
+sylvestris",Woody,Freiburg,Germany,Leaf,Lignin,Diplodia pinea,Leaf spot,Fungus,Necrotroph,-0.033366973,0.003358723
+67,20,"Systemic reprogramming of phytohormone profiles and
+metabolic traits by virulent Diplodia infection in its pine (Pinus
+sylvestris L.) host",2021,"Pinus 
+sylvestris",Woody,Freiburg,Germany,Leaf,Lignin,Diplodia pinea,Leaf spot,Fungus,Necrotroph,-0.132347749,0.006088598
+69,20,"Systemic reprogramming of phytohormone profiles and
+metabolic traits by virulent Diplodia infection in its pine (Pinus
+sylvestris L.) host",2021,"Pinus 
+sylvestris",Woody,Freiburg,Germany,Leaf,Celluloses,Diplodia pinea,Leaf spot,Fungus,Necrotroph,-0.057699387,0.00488107
+71,20,"Systemic reprogramming of phytohormone profiles and
+metabolic traits by virulent Diplodia infection in its pine (Pinus
+sylvestris L.) host",2021,"Pinus 
+sylvestris",Woody,Freiburg,Germany,Leaf,Celluloses,Diplodia pinea,Leaf spot,Fungus,Necrotroph,0.07523856,0.002278587
+73,21,Differential Responses of Cucurbita pepo to Podosphaera xanthii Reveal the Mechanism of Powdery Mildew Disease Resistance in Pumpkin,2021,Cucurbita pepo,Forb,Lanzhou,China,Leaf,Lignin,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.179258767,0.001646342
+74,21,Differential Responses of Cucurbita pepo to Podosphaera xanthii Reveal the Mechanism of Powdery Mildew Disease Resistance in Pumpkin,2021,Cucurbita pepo,Forb,Lanzhou,China,Leaf,Lignin,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.10757413,0.001653785
+75,21,Differential Responses of Cucurbita pepo to Podosphaera xanthii Reveal the Mechanism of Powdery Mildew Disease Resistance in Pumpkin,2021,Cucurbita pepo,Forb,Lanzhou,China,Leaf,Phenolics,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.20715971,0.001658948
+76,21,Differential Responses of Cucurbita pepo to Podosphaera xanthii Reveal the Mechanism of Powdery Mildew Disease Resistance in Pumpkin,2021,Cucurbita pepo,Forb,Lanzhou,China,Leaf,Phenolics,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.195806997,0.001673991
+77,22,"Anatomical and biochemical changes in leaves of Vitis labrusca L. cv.
+Niagara Rosada in response to infection by Elsino? ampelina Shear",2020,Vitis labrusca,Woody,Piracicaba,Brazil,Leaf,Phenolics,Elsino? ampelina,Anthracnose,Fungus,Necrotroph,0.136252361,0.004503853
+78,22,"Anatomical and biochemical changes in leaves of Vitis labrusca L. cv.
+Niagara Rosada in response to infection by Elsino? ampelina Shear",2020,Vitis labrusca,Woody,Piracicaba,Brazil,Leaf,Flavonoids,Elsino? ampelina,Anthracnose,Fungus,Necrotroph,0.17697395,0.001851127
+79,23,Glutamate potentiates rice resistance to blast,2019,Oryza sativa,Grass,Vi?osa,Brazil,Leaf,Phenolics,Pyricularia oryzae,Leaf blast,Fungus,Hemibiotrophic,0.245411342,0.000498168
+80,23,Glutamate potentiates rice resistance to blast,2019,Oryza sativa,Grass,Vi?osa,Brazil,Leaf,Lignin,Pyricularia oryzae,Leaf blast,Fungus,Hemibiotrophic,0.113553283,0.000460605
+81,24,"Response to Fusarium graminearum infection in the rachis of a resistant and a susceptible 
+wheat genotype",2019,Thinopyrum elongatum,Grass,Ottawa,Canada,Leaf,Lignin,Fusarium graminearum,Fusarium head blight,Fungus,Necrotroph,0.029584831,0.000947908
+82,24,"Response to Fusarium graminearum infection in the rachis of a resistant and a susceptible 
+wheat genotype",2019,Thinopyrum elongatum,Grass,Ottawa,Canada,Leaf,Lignin,Fusarium graminearum,Fusarium head blight,Fungus,Necrotroph,0.22390565,0.002350711
+83,24,"Response to Fusarium graminearum infection in the rachis of a resistant and a susceptible 
+wheat genotype",2019,Thinopyrum elongatum,Grass,Ottawa,Canada,Leaf,Celluloses,Fusarium graminearum,Fusarium head blight,Fungus,Necrotroph,-0.062973972,0.000236506
+84,24,"Response to Fusarium graminearum infection in the rachis of a resistant and a susceptible 
+wheat genotype",2019,Thinopyrum elongatum,Grass,Ottawa,Canada,Leaf,Celluloses,Fusarium graminearum,Fusarium head blight,Fungus,Necrotroph,-0.065767917,0.000149236
+85,25,Silicon alleviates the changes in the source-sink relationship of wheat plants infected by Pyricularia oryzae.,2019,Triticum aestivum,Grass,Vi?osa,Brazil,Leaf,Phenolics,Pyricularia oryzae,Leaf blast,Fungus,Necrotroph,-0.122310074,0.000377667
+86,25,Silicon alleviates the changes in the source-sink relationship of wheat plants infected by Pyricularia oryzae.,2019,Triticum aestivum,Grass,Vi?osa,Brazil,Leaf,Lignin,Pyricularia oryzae,Leaf blast,Fungus,Necrotroph,-0.570233757,0.015463085
+92,28,"Phialomycesmacrosporusdecreasesanthracnoseseverityoncoffee
+ seedlingsbycompetitionfornutrientsandinducedresistance",2016,Coffea arabica,Woody,Minas Gerais,Brazil,Leaf,Phenolics,Colletotrichum gloeosporioides,Coffee berry disease,Fungus,Necrotroph,-0.059719094,0.00535584
+93,28,"Phialomycesmacrosporusdecreasesanthracnoseseverityoncoffee
+ seedlingsbycompetitionfornutrientsandinducedresistance",2016,Coffea arabica,Woody,Minas Gerais,Brazil,Leaf,Lignin,Colletotrichum gloeosporioides,Coffee berry disease,Fungus,Necrotroph,0.194463934,0.0045748
+102,31,Comparison of root and foliar applications of potassiumsilicate in potentiating post-infection defences of melonagainst powdery mildew,2015,Cucumis melo,Forb,Minas Gerais,Brazil,Leaf,Phenolics,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.182050957,0.002148534
+103,31,Comparison of root and foliar applications of potassiumsilicate in potentiating post-infection defences of melonagainst powdery mildew,2015,Cucumis melo,Forb,Minas Gerais,Brazil,Leaf,Lignin,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.071993513,0.00449046
+104,32,"Benzothiadiazole Induces the Accumulation of Phenolics and
+ Improves Resistance to Powdery Mildew in Strawberries",2007,Fragaria ananassa,Forb,Kuopio,Finland,Leaf,Phenolics,"Sphaerotheca
+ macularis",Powdery mildew,Fungus,Biotroph,0.08594243,0.008088327
+114,37," Leaf phenolics of three willow clones differing in resistance to
+ Melampsora rust infection",1999,Salix myrsinifolia,Woody,Aachen,Germany,Leaf,Phenolics,Melampsora sp.,Rust,Fungus,Biotroph,-0.124191167,0.025539853
+115,37," Leaf phenolics of three willow clones differing in resistance to
+ Melampsora rust infection",1999,Salix myrsinifolia,Woody,Aachen,Germany,Leaf,Phenolics,Melampsora sp.,Rust,Fungus,Biotroph,0.603528655,0.038391771
+116,37," Leaf phenolics of three willow clones differing in resistance to
+ Melampsora rust infection",1999,Salix myrsinifolia,Woody,Aachen,Germany,Leaf,Phenolics,Melampsora sp.,Rust,Fungus,Biotroph,0.285253901,0.042528586
+117,38,"Identification of Golovinomyces artemisiae Causing Powdery Mildew, Changes in Chlorophyll Fluorescence Parameters, and Antioxidant Levels in Artemisia selengensis",2022,Artemisia selengensis,Forb,Harbin,China,Leaf,Lignin,Golovinomyces artemisiae,Powdery mildew,Fungus,Biotroph,0.396881364,0.003958691
+118,39,Defense responses and oxidative metabolism of glyphosate-resistant soybean plants infected by Phakopsora pachyrhizi modulated by glyphosate and nickel,2022,Glycine max,Forb,Vi?osa,Brazil,Leaf,Phenolics,Phakopsora pachyrhizi,Rust,Fungus,Biotroph,0.059644312,0.000455782
+119,39,Defense responses and oxidative metabolism of glyphosate-resistant soybean plants infected by Phakopsora pachyrhizi modulated by glyphosate and nickel,2022,Glycine max,Forb,Vi?osa,Brazil,Leaf,Lignin,Phakopsora pachyrhizi,Rust,Fungus,Biotroph,0.675245622,0.001067664
+120,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Angophora costata,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,0.216184435,0.005751531
+121,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Callistemon citrinus,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,-0.290404379,0.002674446
+122,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Corymbia citriodora,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,0.044080641,0.00981093
+123,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Callistemon viminalis,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,-0.23065645,0.002479773
+124,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Eucalyptus moluccana,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,-1.11613851,0.026397139
+125,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Eucalyptus saligna,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,-0.33569387,0.003766054
+126,40,Susceptibility to the fungal plant pathogen Austropuccinia psidii is related to monoterpene production in Australian Myrtaceae species,2022,Leptospermum trinervium,Woody,Macquarie University,Australia,Leaf,Phenolics,Austropuccinia psidii,Rust,Fungus,Biotroph,-0.433663145,0.004633206
+127,41,"Morphological changes of Podosphaera xanthii and induced biochemical 
+defenses of cucumber after treated by (+)-(S)-ar-turmerone",2020,Cucumis sativus,Forb,Shanghai,China,Leaf,Phenolics,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.170440887,0.000823258
+128,41,"Morphological changes of Podosphaera xanthii and induced biochemical 
+defenses of cucumber after treated by (+)-(S)-ar-turmerone",2020,Cucumis sativus,Forb,Shanghai,China,Leaf,Lignin,Podosphaera xanthii,Powdery mildew,Fungus,Biotroph,0.373482062,0.006449994
